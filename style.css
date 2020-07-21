@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@media screen and (max-width:990px) {
+    .background {
+    }
+
+    main {
+        width: 100vh;
+        background-color: white;
+        display: flex;
+        grid-template-rows: 10% 7% 120px 130px;
+    }
+
+.container__context {
+    margin-left: -50px;
+}
+
+.adaptiv {
+    width: 70%;
+    
+}
+
+    header {
+        background-color: greenyellow;
+
+}
+
+
+}
+
+body {
+    overflow-x: hidden;
+}
+ 
+ .background {
+    background-image: url("../img/03.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100vw;
+    max-height: 45vw;
+    min-height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    }
+
+main {
+    width: 1320px;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100px 700px 120px 130px;
+    /* background-color: yellow; */
+}
+
+header {
+    display: grid;
+    grid-template-columns: 320px 300px 700px;
+
+}
+
+.header__name {
+    display: flex;
+    align-items: center;
+}
+
+.header__context {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+
+.container__hero {
+    display: grid;
+    grid-template-rows: 55% 45%;
+}
+
+
+.container__context {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+aside {
+    display: grid;
+    grid-template-rows: 25% 60%;
+}
+
+.aside__slogan {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+u:nth-child(even) {
+    text-decoration: underline red;
+}
+
+u:nth-child(odd) {
+    text-decoration: underline greenyellow;
+}
+
+.aside__reson {
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+}
+
+.icon,.about {
+    text-align: center;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.list__one{
+    display: flex;
+    flex: 1;
+}
+
+.text__one {
+    flex:2;
+    font-size: 20px;
+}
+
+.picture {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    border-radius: 50px;
+    background-color: white;
+    border: yellowgreen solid 5px;
+    box-sizing: border-box;
+    display: grid;
+    text-align: center;
+    margin-left: 20px;
+    grid-template-rows: 20% 20% 40% 10% 10%;
+}
+
+
+
+.picture__slogan {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.picture__slogan b {
+    color: red;
+}
+
+.picture__price {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    font-size: 30px;
+}
+
+.price__one {
+    text-decoration: line-through red;
+}
+
+.price__two {
+    padding: 10px;
+    background-color: orange;
+}
+
+.picture__form--container {
+    align-items: center;
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(3, 33%);
+
+}
+
+#names,#tel {
+    background-color: rgb(238, 242, 247);
+    border-radius: 50px;
+    border: none;
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#name:focus {
+    outline: none;
+}
+
+
+.submit {
+    width: 250px;
+    height: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 50px;
+    background: orange;
+    border-radius: 50px;
+    }
+
+.picture__footer {
+    font-size: 20px;
+}
+
+.second {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.info__one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: orange 2px solid;
+    text-align: center;
+}
+
+legend {
+    width: 10%;
+}
